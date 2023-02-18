@@ -90,15 +90,35 @@
     				<label for="email">Enter Email Address:</label><br>
     				<input type="text" name="email" value="hpotter@hogwart.wiz"><br>
     				<p>What house do you hope to get sorted into?:</p>
-    				<input type="checkbox" id="gyffindor" name="gryffindor" value="lion">
+    				<input type="checkbox" id="gyffindor" name="houses" value="lion">
   					<label for=""> Gryffindor</label><br>
-  					<input type="checkbox" id="slytherin" name="slytherin" value="snake">
+  					<input type="checkbox" id="slytherin" name="houses" value="snake">
   					<label for=""> Slyerthin</label><br>
-  					<input type="checkbox" id="hufflepuff" name="hufflepuff" value="lion">
+  					<input type="checkbox" id="hufflepuff" name="houses" value="lion">
   					<label for=""> Hufflepuff</label><br>
-  					<input type="checkbox" id="ravenclaw" name="ravenclaw" value="lion">
+  					<input type="checkbox" id="ravenclaw" name="houses" value="lion">
   					<label for=""> Ravenclaw</label><br>
-  					<input type="submit" value="Submit">
+  			</form>		
+  			</div>
+
+  					<label for="blood-type">Select Blood Type</label>
+  					<select name="blood-type" id="blood-type"></select>
+  					<option value="pure">Pure Blood</option>
+  					<option value="half">Half Blood</option>
+  					<option value="muggle">Muggle Blood</option>
+  				</select>
+  					
+  					<p>What are you applying for?:</p>
+  					<form>
+  					<input type="radio" id="student" name="enrollment" value="student">
+  					<label for="student">Student Enrollment</label><br>  					
+  					<input type="radio" id="teacher" name=enrollment value="teacher">
+  					<label for="teacher">Teaching Position</label><br>
+  					<input type="radio" id="ta" name=enrollment value="ta">
+  					<label for="ta">Teaching-Assistant Postion</label><br>
+  					<input type="submit" name="Submit">
+  					
+
     			</form>
     			<p></p>
     		</div>
